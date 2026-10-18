@@ -1,0 +1,12 @@
+uci_official seed 0: stage1 92.16% (0.0%)  nested 93.72% (7.2%)  frozen 95.03% (15.7%)  always_on 95.13% (100.0%)  tau [0.25]
+uci_official seed 1: stage1 91.79% (0.0%)  nested 92.59% (6.9%)  frozen 94.23% (19.4%)  always_on 93.99% (100.0%)  tau [0.25]
+uci_official seed 2: stage1 91.46% (0.0%)  nested 93.09% (9.4%)  frozen 94.26% (15.5%)  always_on 94.29% (100.0%)  tau [0.5]
+uci_official seed 3: stage1 92.76% (0.0%)  nested 94.26% (11.5%)  frozen 94.26% (11.5%)  always_on 93.46% (100.0%)  tau [1.0]
+uci_official seed 4: stage1 92.92% (0.0%)  nested 93.39% (4.1%)  frozen 93.59% (11.8%)  always_on 92.22% (100.0%)  tau [0.25]
+
+== uci_official: mean +- sd over 5 seeds (accuracy pooled over test windows; sensor = % of windows on)
+  stage1     acc  92.22 +- 0.62   sensor on   0.0 +- 0.0%
+  nested     acc  93.41 +- 0.63   sensor on   7.8 +- 2.8%
+  frozen     acc  94.27 +- 0.51   sensor on  14.8 +- 3.3%
+  always_on  acc  93.82 +- 1.08   sensor on 100.0 +- 0.0%
+  chosen tau counts: {'0.25': 3, '0.5': 1, '1.0': 1}

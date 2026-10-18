@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+vivado/*.mem
+vivado/*.log
+vivado/*.jou
+vivado/*.pb
+vivado/*.wdb
+vivado/xsim.dir/
+vivado/.Xil/
+*.dcp
+*.saif

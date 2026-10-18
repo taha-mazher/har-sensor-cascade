@@ -1,0 +1,20 @@
+subject 101: 2939 windows, 964 scored
+subject 102: 3491 windows, 1049 scored
+subject 103: 1974 windows, 966 scored
+subject 104: 2573 windows, 1046 scored
+subject 105: 2927 windows, 1014 scored
+subject 106: 2825 windows, 929 scored
+subject 107: 2449 windows, 974 scored
+subject 108: 3186 windows, 963 scored
+pamap2 seed 0: stage1 80.14% (0.0%)  nested 88.83% (56.5%)  frozen 89.03% (48.8%)  always_on 89.45% (100.0%)  tau [1.5, 2.0, 4.0, inf]
+pamap2 seed 1: stage1 80.72% (0.0%)  nested 88.60% (57.6%)  frozen 87.16% (48.0%)  always_on 89.20% (100.0%)  tau [1.5, 2.0, 3.0, inf]
+pamap2 seed 2: stage1 77.37% (0.0%)  nested 85.57% (71.0%)  frozen 85.46% (49.7%)  always_on 85.58% (100.0%)  tau [3.0, 4.0, inf]
+pamap2 seed 3: stage1 78.66% (0.0%)  nested 87.65% (64.1%)  frozen 88.67% (54.1%)  always_on 88.82% (100.0%)  tau [1.5, 2.0, 3.0, inf]
+pamap2 seed 4: stage1 80.30% (0.0%)  nested 85.30% (50.8%)  frozen 85.33% (49.6%)  always_on 86.39% (100.0%)  tau [0.25, 1.0, 1.5, 2.0, 3.0, inf]
+
+== pamap2: mean +- sd over 5 seeds (accuracy pooled over test windows; sensor = % of windows on)
+  stage1     acc  79.44 +- 1.39   sensor on   0.0 +- 0.0%
+  nested     acc  87.19 +- 1.67   sensor on  60.0 +- 7.7%
+  frozen     acc  87.13 +- 1.73   sensor on  50.0 +- 2.4%
+  always_on  acc  87.89 +- 1.77   sensor on 100.0 +- 0.0%
+  chosen tau counts: {'0.25': 1, '1.0': 1, '1.5': 6, '2.0': 12, '3.0': 8, '4.0': 4, 'inf': 8}

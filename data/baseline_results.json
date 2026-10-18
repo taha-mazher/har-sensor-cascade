@@ -1,0 +1,274 @@
+{
+ "uci_official": {
+  "acc": 91.97,
+  "bal_acc": 89.79,
+  "recall": {
+   "Walking": 100.0,
+   "Sitting": 73.4,
+   "Standing": 85.3,
+   "Laying": 94.5,
+   "Transitions": 95.8
+  },
+  "sit_as_stand": 128,
+  "stand_as_sit": 81,
+  "sit_stand_err": 19.6,
+  "confusion": [
+   [
+    1387,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    373,
+    128,
+    0,
+    6
+   ],
+   [
+    0,
+    81,
+    474,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    515,
+    30
+   ],
+   [
+    2,
+    3,
+    0,
+    2,
+    159
+   ]
+  ],
+  "fold_acc_mean_sd": [
+   91.97,
+   0.0
+  ]
+ },
+ "uci_group5": {
+  "acc": 92.29,
+  "bal_acc": 90.48,
+  "recall": {
+   "Walking": 98.0,
+   "Sitting": 80.7,
+   "Standing": 82.5,
+   "Laying": 99.3,
+   "Transitions": 91.9
+  },
+  "sit_as_stand": 316,
+  "stand_as_sit": 346,
+  "sit_stand_err": 17.5,
+  "confusion": [
+   [
+    4580,
+    2,
+    0,
+    0,
+    91
+   ],
+   [
+    2,
+    1453,
+    316,
+    15,
+    15
+   ],
+   [
+    0,
+    346,
+    1632,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1945,
+    13
+   ],
+   [
+    27,
+    3,
+    6,
+    6,
+    476
+   ]
+  ],
+  "fold_acc_mean_sd": [
+   92.29,
+   1.27
+  ]
+ },
+ "uci_random_window": {
+  "acc": 93.84,
+  "bal_acc": 92.03,
+  "recall": {
+   "Walking": 99.9,
+   "Sitting": 85.6,
+   "Standing": 81.1,
+   "Laying": 100.0,
+   "Transitions": 93.6
+  },
+  "sit_as_stand": 38,
+  "stand_as_sit": 56,
+  "sit_stand_err": 16.6,
+  "confusion": [
+   [
+    700,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    231,
+    38,
+    0,
+    1
+   ],
+   [
+    0,
+    56,
+    241,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    294,
+    0
+   ],
+   [
+    2,
+    1,
+    0,
+    2,
+    73
+   ]
+  ],
+  "fold_acc_mean_sd": [
+   93.84,
+   0.0
+  ]
+ },
+ "pamap2_loso": {
+  "acc": 78.45,
+  "bal_acc": 72.76,
+  "recall": {
+   "Walking": 94.2,
+   "Sitting": 61.3,
+   "Standing": 43.9,
+   "Laying": 91.6
+  },
+  "sit_as_stand": 449,
+  "stand_as_sit": 777,
+  "sit_stand_err": 42.2,
+  "confusion": [
+   [
+    3334,
+    75,
+    130,
+    0,
+    0
+   ],
+   [
+    73,
+    880,
+    449,
+    33,
+    0
+   ],
+   [
+    49,
+    777,
+    646,
+    0,
+    0
+   ],
+   [
+    61,
+    41,
+    23,
+    1369,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "fold_acc_mean_sd": [
+   78.61,
+   6.16
+  ]
+ },
+ "wisdm_group6": {
+  "acc": 98.69,
+  "bal_acc": 94.78,
+  "recall": {
+   "Walking": 99.9,
+   "Sitting": 90.4,
+   "Standing": 94.1
+  },
+  "sit_as_stand": 168,
+  "stand_as_sit": 91,
+  "sit_stand_err": 6.5,
+  "confusion": [
+   [
+    22611,
+    11,
+    21,
+    0,
+    0
+   ],
+   [
+    45,
+    2003,
+    168,
+    0,
+    0
+   ],
+   [
+    13,
+    91,
+    1656,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "fold_acc_mean_sd": [
+   98.68,
+   1.24
+  ]
+ }
+}

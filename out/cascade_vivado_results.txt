@@ -1,0 +1,10 @@
+model                 LUTs LUTRAM   FFs slices DSP  WNS ns power W  dyn W   sim
+cascade_pamap2_101     413     12   368    154   1   5.138   0.064  0.003  PASS
+cascade_pamap2_102     398     12   368    146   1   5.440   0.064  0.003  PASS
+cascade_pamap2_103     410     12   368    158   1   4.745   0.064  0.003  PASS
+cascade_pamap2_104     408     12   368    148   1   5.127   0.064  0.003  PASS
+cascade_pamap2_105     396     12   368    155   1   4.761   0.064  0.003  PASS
+cascade_pamap2_106     409     12   368    150   1   5.164   0.064  0.003  PASS
+cascade_pamap2_107     402     12   368    159   1   5.087   0.064  0.003  PASS
+cascade_pamap2_108     409     12   368    152   1   4.323   0.064  0.003  PASS
+cascade_uci            358     12   286    126   1   5.629   0.063  0.003  PASS

@@ -1,0 +1,4 @@
+variant  LUTs   FFs slices  DSP  WNS ns  P mW Pdyn mW cycles  lat ns E_tot nJ E_dyn nJ   sim
+A_ser    220   189     95    1   5.708  62.9    2.60     85    1700    107.0     4.47  PASS
+A_np     699   409    219    6   4.080  72.6   12.24     18     360     26.1     4.65  PASS
+A_par    465   295    190   72   0.547  74.9   14.50      7     140     10.5     2.32  PASS
